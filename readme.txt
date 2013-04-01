@@ -5,6 +5,7 @@ Tags: ssl, https, http
 Requires at least: 3.4.0
 Tested up to: 3.5.1
 Stable tag: 1.0.0
+License: GPLv2 or later
 
 Seamlessly map URLs to SSL if the site is accessed via SSL.
 
@@ -29,6 +30,17 @@ Sure! Write to us at [hello@codemaster.fi](mailto:hello@codemaster.fi) with your
 This plugin is written by [S H Mohanjith](http://mohanjith.com/).
 
 You should follow us on Twitter *[here](http://twitter.com/codemasteroy)*.
+
+== Screenshots ==
+
+1. Site under http
+1. Site under https
+
+== Upgrade Notice ==
+
+= 1.0.0 =
+
+You just installed, why are you trying to update?
 
 == Changelog ==
 

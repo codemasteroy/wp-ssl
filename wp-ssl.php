@@ -6,6 +6,7 @@ Description: Seamlessly map URLs to SSL if the site is accessed via SSL
 Version: 1.0.0
 Author: S H Mohanjith (Code Master)
 Author URI: http://codemaster.fi/
+License: GPLv2 or later
 */
 
 class Wp_Ssl {
