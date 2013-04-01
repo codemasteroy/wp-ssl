@@ -2,7 +2,7 @@
 /*
 Plugin Name: WordPress SSL
 Plugin URI: http://codemaster.fi/wordpress/plugins/wp-ssl/
-Description: Map URLs to SSL if the site is accessed via SSL
+Description: Seamlessly map URLs to SSL if the site is accessed via SSL
 Version: 1.0.0
 Author: S H Mohanjith (Code Master)
 Author URI: http://codemaster.fi/
@@ -15,14 +15,6 @@ class Wp_Ssl {
                         add_filter( 'pre_option_siteurl', array($this, 'pre_option_siteurl') );
                         add_filter( 'pre_option_home', array($this, 'pre_option_home') );
                         add_filter( 'the_content', array($this, 'the_content') );
-
-                        /*add_filter( 'print_head_scripts', array($this, 'print_head_scripts'), 1, 1);
-
-                        add_filter( 'plugins_url', array($this, 'plugins_url'), 10, 3);
-                        add_filter( 'site_url', array($this, 'site_url'), 10, 4);
-                        add_filter( 'home_url', array($this, 'home_url'), 10, 3);
-
-                        add_filter( 'includes_url', array($this, 'includes_url'), 10, 2);*/
                 }
         }
 
